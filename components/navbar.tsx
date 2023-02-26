@@ -67,7 +67,17 @@ export default function Navbar({ children }: React.PropsWithChildren<{}>) {
                     </a>
                   </Link>
                 </li>
-              ))}
+		))}
+<li className="m-2">
+                  <Link href={`/members`} legacyBehavior>
+                    <a
+                      className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-black dark:bg-blue-600 md:dark:bg-transparent"
+                      aria-current="page"
+                    >
+                      Members
+                    </a>
+                  </Link>
+                </li>
             </ul>
           </div>
         </div>

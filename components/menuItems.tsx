@@ -8,9 +8,5 @@ export const menuItems = [
       href: 'about',
       title: 'About',
     }, 
-    {
-      herf: 'members',
-      title: 'Members',
-    }
-    
+   
   ];
