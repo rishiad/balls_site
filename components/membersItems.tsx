@@ -11,22 +11,22 @@ export const membersItems = [
 
     {
       name: 'DAVID McMARTIN',
-      roles: 'SECRETARY',
+      role: 'SECRETARY',
     },
 
     {
         name: 'JEFF BROWN',
-        roles: 'ASSISTANT SECRETARY',
+        role: 'ASSISTANT SECRETARY',
     }, 
 
    {
         name: 'JANNY WAGENAAR',
-        roles: 'ALMONER',
+        role: 'ALMONER',
    },
    
    {
         name: 'JOHN LUDBROOK',
-        roles: 'GAMES MANAGER'
+        role: 'GAMES MANAGER'
    }
 
   ];
