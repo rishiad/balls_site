@@ -7,14 +7,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function About() {
   return (
-    <div className="grid grid-cols-2 h-screen">
+    <div className="grid grid-cols-2 h-screen bg-white">
       <div className="container mx-auto pl-10 space-y-4 ">
-        <h1 className="mb-4 pt-40 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="mb-4 pt-40 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"> 
           About Us
         </h1>
 
         <div className="container max-w-xl text-justify pt-6">
-          <p className="mb-3 font-light font-semibold text-black dark:text-black first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left text-lg	">
+          <p className="mb-3 font-light font-semibold text-black dark:text-black first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-10-letter:mr-3 first-letter:float-left text-lg	">
             The Bowls Past Presidents Association of South Australia was founded
             in 1968. The Association, which is affiliated with Bowls SA at the
             highest administrative level, provides a forum for bowlers who have

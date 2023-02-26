@@ -8,12 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-  <div className="isolate bg-white h-screen ">
-  <div className="absolute transform-gpu ">
-   <img src="/hero.png" alt="" />
-  </div>
-
-  <main className='h-screen backdrop-opacity-5 '>
+  <div className="isolate bg-[url('/hero.png')] bg-cover h-screen ">
+  <main className='h-screen bg-slate-400 bg-opacity-20'>
     <div className="relative px-6 lg:px-8">
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
 

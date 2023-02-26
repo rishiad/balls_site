@@ -17,7 +17,7 @@ export default function Navbar({ children }: React.PropsWithChildren<{}>) {
               alt="BP Logo"
             /> */}
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-black">
-              Past Presidents
+   		Bowls SA Past Presidents
             </span>
           </a>
           <div className="flex md:order-2">
